@@ -1,7 +1,9 @@
 # Lorem Ipsum stock tracking
 
-This is a react webapp using crud operations to store local stock userdata on a RESTful API via mongodb.
-We used TwelveData API and FinnHub API for the stock and information in real time. You will need API keys for those yourself if you want to run the app.
+This group project was completed while at CodeClan with my two classmates. Group Members: John Basile, Robert Mayo, and George Tegos. It is a React.js web app using CRUD operations to store local stock userdata on a RESTful API via mongodb.
+We used the TwelveData API (https://twelvedata.com/) and the FinnHub API (https://finnhub.io/) for the stocks information in real time. You will need to get your own API keys if you would like to run the app.
+
+## :movie_camera: Videos:
 
 https://github.com/Oirien/LoremIpsum_Stock_Tracker/assets/136370232/a729e51c-70c3-4141-9423-dc3799205288
 
@@ -16,14 +18,12 @@ https://github.com/Oirien/LoremIpsum_Stock_Tracker/assets/136370232/2ec9ef05-2a9
 
 ## :arrow_right: Running Instructions:
 
-Start by going into the base folder and running
-
 - Clone the repository to your local machine by using the command line:
   
 	```
 	git clone git@github.com:abasile1-tech/LoremIpsum_Stock_Tracker_Fork.git
  	```
-- then:
+- then (optional: if you would like to install the prettier dev extension for vs code):
   ```
   npm install
   ```
@@ -35,7 +35,7 @@ Start by going into the base folder and running
   npm run dev
   ```
 
-- then:
+- then open another terminal in the project directory:
   ```
   cd ../server
   npm install
@@ -66,8 +66,8 @@ Start by going into the base folder and running
 ![searchApple](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/searchApple.PNG?raw=true)
 ![appleStock](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/appleStock.PNG?raw=true)
 ![appleStockNews](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/appleStockNews.PNG?raw=true)
-![portfolioNamesAsc](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/portfolioNamesAsc.PNG?raw=true)
-![portfolioNamesDesc](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/portfolioNamesDesc.PNG?raw=true)
+![portfolioNameAsc](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/portfolioNameAsc.PNG?raw=true)
+![portfolioNameDesc](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/portfolioNameDesc.PNG?raw=true)
 ![portfolioPriceAsc](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/portfolioPriceAsc.PNG?raw=true)
 ![portfolioPriceDesc](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/portfolioPriceDesc.PNG?raw=true)
 ![accountPage](https://github.com/abasile1-tech/LoremIpsum_Stock_Tracker_Fork/blob/main/assets/accountPage.PNG?raw=true)
